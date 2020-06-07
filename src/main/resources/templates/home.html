@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org"
+   xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+   layout:decorate="~{/layouts/main_template}">
+
+<head>
+<meta charset="UTF-8">
+<title>home</title>
+</head>
+
+<body>
+	<div layout:fragment="content">
+		<h1>ALOHA CAMPUS에 오신 것을 환영합니다.</h1>
+		
+		<p th:text="${serverTime}">시간 표시</p>
+	</div>
+</body>
+</html>
